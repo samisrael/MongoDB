@@ -176,7 +176,7 @@ db.products.aggregate([
 db.products.aggregate([
   { $group: { _id: "$category", count: { $sum: 1 } } }
 ])
-
+```
 ## Result
 
 - CRUD operations were successfully performed on the `products` collection.  
